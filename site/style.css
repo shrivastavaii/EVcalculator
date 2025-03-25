@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .scenario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 120px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .ev-output {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .ev-positive {
+    color: green;
+  }
+  
+  .ev-negative {
+    color: red;
+  }
+  
+  .remove-btn {
+    background-color: #0a0909;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input {
+    padding: 8px;
+    width: 120px;
+  }
+  input.ticker {
+    width: 80px;
+  }
+  
+
+  .input-group {
+    display: inline-block;
+    margin: 5px 10px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    display: block;
+  }
+  
+  .input-group input {
+    display: block;
+    width: 100px;
+    padding: 6px;
+  }
+  
+  
