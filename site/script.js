@@ -11,13 +11,13 @@ function addScenario() {
         <label>Entry Price<br><input type="number" class="entry" placeholder=""></label>
       </div>
       <div class="input-group">
+        <label>Stop Loss<br><input type="number" class="stop" placeholder=""></label>
+      </div>
+      <div class="input-group">
         <label>Target Price<br><input type="number" class="exit" placeholder=""></label>
       </div>
       <div class="input-group">
         <label>Shares<br><input type="number" class="shares" placeholder=""></label>
-      </div>
-      <div class="input-group">
-        <label>Stop Loss<br><input type="number" class="stop" placeholder=""></label>
       </div>
       <div class="input-group">
         <label>Reward ($)<br><input type="number" class="reward" readonly></label>
